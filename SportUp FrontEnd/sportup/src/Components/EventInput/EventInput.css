@@ -1,0 +1,25 @@
+#EventInputRoot {
+  width: 300px;
+  min-height: 400px;
+  position: absolute;
+  /* left: 0px; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px !important;
+  background-color: rgba(255, 255, 255, 0.25) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 30px !important;
+  transition: all 1s;
+  bottom: 100px;
+}
+
+.sport-icon:hover {
+  transform: scale(0.75);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.sport-icon {
+  transform: scale(1);
+  transition: all 0.3s;
+}

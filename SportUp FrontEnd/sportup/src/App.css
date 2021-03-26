@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "sportup-regular";
+  src: url("./assets/fonts/GTEestiProDisplay-Regular.ttf");
+}
+@font-face {
+  font-family: "sportup-medium";
+  src: url("./assets/fonts/GTEestiProDisplay-Medium.ttf");
+}
+@font-face {
+  font-family: "sportup-bold";
+  src: url("./assets/fonts/GTEestiProDisplay-Bold.ttf");
+}
+* {
+  font-family: "sportup-regular" !important;
+}
